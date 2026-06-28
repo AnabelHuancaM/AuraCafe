@@ -1,0 +1,15 @@
+.hero {
+    background-image: url('/src/assets/img/banners/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}

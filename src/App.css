@@ -1,0 +1,116 @@
+:root {
+ /*BRAND Principal*/
+  --light: #FAF7F2;
+  --light-active: #FFF5E4;
+  --pink-light: #EBC8CB;
+  --pink-light-active: #FFB9BF;
+  --component: #E0A59D;
+  --dark2: #664B48;
+  --dark: #2F2019;
+  --dark-active: #2F0C07;
+  /*Matcha Cafe*/
+  --verde-light: #EEEDBE;
+  --verde: #99B27F;
+  --badge: #C37857; 
+  --cafe: #734444;
+    /*Matcha text*/
+    --matcha-text: #3B760B;
+    --matcha-subtitle: #734444;
+  /*Cafe Espresso*/
+  --marron: #9A593D;
+  --coffee: #A34A28;
+  --cafe-bg: #DFDDC7;
+  --cafe-bg2: #FFE8D8;
+    /*Cafe Espresso Text*/
+    --cafe-title: #A34A28;
+    --cafe-subtitle: #654534;
+  /*Postres*/
+  --lila: #957DAD;
+  --rosado: #D291BC;
+  --rosado-light: #FEC8D8;
+  --beige-light: #FFDFD3;
+  --turquesa: #71C9CE;
+  --turquesa2: #A6E3E9;
+  --turquesa-light: #CBF1F5;
+  --turquesa-light2: #E3FDFD;
+    /*Postres Text*/
+    --postre-title: #008A92;
+    --postre-subtitle: #005559;
+  /*MAIN*/    
+  --secondary-hover: #595D72;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+/* ----------------- FREDOKA ------------------ */
+@font-face {
+    font-family: 'Fredoka Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/fonts/Fredoka/fredoka-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Fredoka Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('/fonts/Fredoka/fredoka-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Fredoka Semibold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/fonts/Fredoka/fredoka-Semibold.ttf') format('ttf');
+}
+
+/* ----------------- LEXEND ------------------ */
+@font-face {
+    font-family: 'Lexend Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/fonts/Lexend/Lexend-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Lexend Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('/fonts/Lexend/Lexend-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Lexend Semibold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/fonts/Lexend/Lexend-Semibold.ttf') format('ttf');
+}
+
+.title-section {
+  font-size: 40px;
+  color: var(--dark-active);
+  font-family: 'Fredoka', sans-serif;
+  margin-bottom: 2rem;
+}
+
+
+.title-hero {
+  color: var(--dark-active);
+  font-family: 'Fredoka Bold', sans-serif;
+  font-size: 50px;
+  letter-spacing: 1.3px;
+}
+
+.title-banner {
+  font-family: 'Fredoka Bold', sans-serif;
+  /* font-size: 64px; */
+  letter-spacing: 1.3px;
+}
+
+.section-subtitle{
+  color: var(--matcha-subtitle);
+ /*  font-size: 24px; */
+  font-family: 'Lexend Semibold', sans-serif;
+}

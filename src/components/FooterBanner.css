@@ -1,0 +1,30 @@
+.cta-banner {
+  background-image: url(src/assets/img/banners/cta.webp);
+  border-radius: 20px;
+  height: 310px;
+  padding: 2rem;
+}
+
+.cta-title {
+  font-family: 'Fredoka Semibold', sans-serif;
+  color: var(--light-active);
+  /* font-size: 42px; */
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.cta-subtitle {
+  font-family: 'Lexend Medium';
+  color: var(--light-active);
+  margin-bottom: 1.5rem;
+}
+
+.banner-link {
+  color: var(--button-pink-text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cta-content{
+  width: 50%;
+}

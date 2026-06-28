@@ -1,0 +1,30 @@
+.header {
+  height: 80px;
+  background-color: var(--bg-color);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+  background-color: var(--button-pink-text);
+  border-radius: 4px;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a {
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--primary-green-dark);
+}

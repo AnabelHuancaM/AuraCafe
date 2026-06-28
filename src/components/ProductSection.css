@@ -1,0 +1,49 @@
+.product-card {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.product-image-container img {
+  width: 80%;
+}
+
+.product-name {
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+  font-family: 'Fredoka Semibold';
+}
+
+.product-desc {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  flex-grow: 1;
+  font-weight: 500;
+}
+
+.product-price {
+  font-family: 'Lexend Semibold';
+  color: var(--matcha-subtitle);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/*MATCHA*/
+.matcha-title {
+  color: var(--matcha-text);
+}
+
+.latte-title {
+  color: var(--cafe-title);
+}
+
+.dessert-title {
+  color: var(--postre-title);
+}

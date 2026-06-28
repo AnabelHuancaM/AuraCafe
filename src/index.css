@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+ /*BRAND Principal*/
+  --light: #FAF7F2;
+  --light-active: #FFF5E4;
+  --pink-light: #EBC8CB;
+  --pink-light-active: #FFB9BF;
+  --component: #E0A59D;
+  --dark2: #664B48;
+  --dark: #2F2019;
+  --dark-active: #2F0C07;
+  /*Matcha Cafe*/
+  --verde-light: #EEEDBE;
+  --verde: #99B27F;
+  --badge: #C37857; 
+  --cafe: #734444;
+    /*Matcha text*/
+    --matcha-text: #3B760B;
+    --matcha-subtitle: #734444;
+  /*Cafe Espresso*/
+  --marron: #9A593D;
+  --coffee: #A34A28;
+  --cafe-bg: #DFDDC7;
+  --cafe-bg2: #FFE8D8;
+    /*Cafe Espresso Text*/
+    --cafe-title: #A34A28;
+    --cafe-subtitle: #654534;
+  /*Postres*/
+  --lila: #957DAD;
+  --rosado: #D291BC;
+  --rosado-light: #FEC8D8;
+  --beige-light: #FFDFD3;
+  --turquesa: #71C9CE;
+  --turquesa2: #A6E3E9;
+  --turquesa-light: #CBF1F5;
+  --turquesa-light2: #E3FDFD;
+    /*Postres Text*/
+    --postre-title: #008A92;
+    --postre-subtitle: #005559;
+  /*MAIN*/    
+  --secondary: #666C86;
+  --secondary-hover: #595D72;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section{
+  padding: 4rem 0;
+}
+
+/* ----------------- FREDOKA ------------------ */
+@font-face {
+    font-family: 'Fredoka Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('/src/assets/fonts/Fredoka/Fredoka-Medium.ttf') ;
+}
+@font-face {
+    font-family: 'Fredoka Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url('/src/assets/fonts/Fredoka/Fredoka-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Fredoka Semibold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/src/assets/fonts/Fredoka/Fredoka-Semibold.ttf');
+}
+
+/* ----------------- LEXEND ------------------ */
+@font-face {
+    font-family: 'Lexend Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/src/assets/fonts/Lexend/Lexend-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lexend Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: url('/src/assets/fonts/Lexend/Lexend-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Lexend Semibold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/src/assets/fonts/Lexend/Lexend-Semibold.ttf');
+}
+
+.hero-subtitle {
+  color: var(--dark2);
+  font-family: 'Lexend Semibold', sans-serif;
+  max-width: 80%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-cta {
+  background-color: var(--pink-light);
+  border: 1px solid var(--component);
+  color: var(--dark);
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  width: fit-content;
+  transition: transform 0.2s ease;
+  font-family: 'Fredoka Medium', sans-serif;
+  font-size: 20px;
+}
+
+.hero-cta:hover {
+  transform: translateY(-2px);
+}
+
+@layer components {
+  .background-image, .bg-img  {
+    @apply bg-center bg-cover bg-no-repeat;
+  }
+}
+
+@layer components {
+  .section-banner {
+    @apply py-12 h-96 flex items-center;
+  }
+}
+
+@layer components {
+    .title-banner {
+      @apply text-4xl xl:text-6xl md:text-5xl sm:text-5xl mb-4;
+    }
+}
+
+@layer components {
+    .section-subtitle {
+      @apply lg:text-2xl md:text-base;
+    }
+}
+
+@layer CTA {
+  .cta-title {
+    @apply text-base lg:text-5xl sm:text-base;
+  }
+}
+
+@layer CTA {
+  .cta-subtitle {
+    @apply text-lg  sm:text-base lg:text-lg;
+  }
+}
+
+@layer CTA {
+  .cta-content {
+    @apply w-80 lg:w-3/6 sm:w-full;
+  }
+}
