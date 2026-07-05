@@ -11,8 +11,10 @@ const FooterBanner = () => {
               <p className="cta-subtitle">
                 Cada pausa tiene una historia. Comparte tus fotografías, experiencias y bebidas favoritas utilizando nuestros hashtags y forma parte de la comunidad Aura.
               </p>
-              <span className='badge'>@AuraCafeBites</span>
-              <span className='badge'>@#MiMomentoAura</span>
+              <div className='flex flex-wrap'>
+                <span className='badge'>@AuraCafeBites</span>
+                <span className='badge'>@#MiMomentoAura</span>
+              </div>
             </div>
           </div>
        

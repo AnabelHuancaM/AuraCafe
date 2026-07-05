@@ -1,8 +1,10 @@
 .cta-banner {
   background-image: url(src/assets/img/banners/cta.webp);
   border-radius: 20px;
-  height: 310px;
+  height: 25rem;
   padding: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .cta-title {
@@ -23,8 +25,4 @@
   color: var(--button-pink-text);
   font-weight: 600;
   text-decoration: none;
-}
-
-.cta-content{
-  width: 50%;
 }

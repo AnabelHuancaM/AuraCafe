@@ -11,28 +11,6 @@
   gap: 1.5rem;
 }
 
-.feature-card {
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  aspect-ratio: 1;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-}
-
-
-.feature-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
-  padding: 2rem 1rem 1rem;
-  color: white;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-
 .features_card{
   background-color: var(--cafe-bg2);
   padding: 1rem;

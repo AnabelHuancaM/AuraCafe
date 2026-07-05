@@ -159,6 +159,13 @@ img {
 }
 
 @layer components {
+  .title-hero  {
+    @apply text-2xl lg:text-6xl md:text-4xl sm:text-xl mb-4;
+  }
+}
+
+
+@layer components {
   .section-banner {
     @apply py-12 h-96 flex items-center;
   }
@@ -176,20 +183,29 @@ img {
     }
 }
 
-@layer CTA {
-  .cta-title {
-    @apply text-base lg:text-5xl sm:text-base;
-  }
-}
-
-@layer CTA {
-  .cta-subtitle {
-    @apply text-lg  sm:text-base lg:text-lg;
-  }
-}
-
-@layer CTA {
+@layer components {
   .cta-content {
-    @apply w-80 lg:w-3/6 sm:w-full;
+    @apply w-full lg:w-3/6 sm:w-9/12;
   }
+}
+
+@layer components {
+  .cta-title {
+    @apply text-base lg:text-5xl sm:text-3xl;
+  }
+}
+
+@layer components {
+  .cta-subtitle {
+    @apply text-base  sm:text-xl lg:text-lg;
+  }
+}
+
+.badge {
+  background-color: var(--badge);
+  word-break: normal;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 2px;
+  font-weight: 500;
 }

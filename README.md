@@ -1,16 +1,114 @@
-# React + Vite
+# ☕ Aura Café & Bites
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una landing page moderna desarrollada con **React** y **Vite**, inspirada en una cafetería especializada en bebidas artesanales, café de especialidad y bocados dulces. El proyecto busca ofrecer una experiencia visual agradable mediante una interfaz limpia, diseño responsive y una navegación intuitiva.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Características
 
-## React Compiler
+* 🎨 Diseño moderno y minimalista.
+* 📱 Interfaz completamente responsive.
+* ☕ Catálogo de bebidas y productos organizado por categorías.
+* 🌿 Sección destacando ingredientes naturales y preparación artesanal.
+* 💚 Alternativas vegetales para diferentes preferencias.
+* 📍 Navegación por secciones: Menú, Locales y Contacto.
+* 📸 Sección para interacción con la comunidad mediante redes sociales.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript (ES6+)
+* Tailwind CSS
+* HTML5
+* CSS3
+
+---
+
+## 📂 Estructura del proyecto
+
+```text
+Aura/
+├── public/
+├── src/
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Instalación y ejecución
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/Aura.git
+```
+
+Accede al directorio del proyecto:
+
+```bash
+cd Aura
+```
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Genera la versión de producción:
+
+```bash
+npm run build
+```
+
+Previsualiza la versión de producción:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Demo
+
+Puedes ver el proyecto desplegado en Vercel aquí:
+
+**🔗 https://auracafe.vercel.app**
+
+---
+
+## 📸 Aura Cafe
+
+
+![alt text](auraCafe.webp)
+
+---
+
+## 🎯 Objetivo
+
+Este proyecto fue desarrollado como práctica de desarrollo Frontend utilizando React, con el objetivo de fortalecer conocimientos en:
+
+* Componentización.
+* Diseño responsive.
+* Maquetación moderna.
+* Organización de proyectos con Vite.
+* Estilizado mediante Tailwind CSS.
+
+---
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado como parte de un portafolio personal.
