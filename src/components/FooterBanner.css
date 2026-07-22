@@ -1,5 +1,5 @@
 .cta-banner {
-  background-image: url(src/assets/img/banners/cta.webp);
+  background-image: url(/banners/cta.webp);
   border-radius: 20px;
   height: 25rem;
   padding: 2rem;

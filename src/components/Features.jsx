@@ -23,7 +23,7 @@ const Features = ({bgColor}) => {
             </div>
 
             <div className='flex justify-center'>
-              <img src="/src/assets/img/why1.webp" alt="img" className='rounded-xl max-w-md w-full object-cover'/>
+              <img src="/why1.webp" alt="img" className='rounded-xl max-w-md w-full object-cover'/>
             </div>
 
         </div>
