@@ -28,7 +28,7 @@ const TIPO = {
                 <div className="product-image-container">
                   <img src={product.image} alt="" />
                 </div>
-                {/* <h3 className="product-name">{product.name}</h3> */}
+
                 <h3 className={`product-name ${section.class}`}> {product.name}</h3>
                 <p className="product-desc">{product.description}</p>
                 <h5 className="product-price">{product.price}</h5>

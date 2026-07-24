@@ -5,7 +5,7 @@
 }
 
 .product-image-container {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -29,7 +29,7 @@
 }
 
 .product-price {
-  font-family: 'Lexend Semibold';
+  font-family: 'Lexend', sans-serif;
   color: var(--matcha-subtitle);
   font-size: 22px;
   font-weight: 700;

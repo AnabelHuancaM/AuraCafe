@@ -90,47 +90,45 @@ img {
     font-family: 'Fredoka Medium';
     font-weight: 500;
     font-style: normal;
-    src: url('/src/assets/fonts/Fredoka/Fredoka-Medium.ttf') ;
+    src: url('./assets/fonts/Fredoka/Fredoka-Medium.ttf');
 }
 @font-face {
     font-family: 'Fredoka Bold';
     font-weight: bold;
     font-style: normal;
-    src: url('/src/assets/fonts/Fredoka/Fredoka-Bold.ttf');
+    src: url('./assets/fonts/Fredoka/Fredoka-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Fredoka Semibold';
     font-weight: 700;
     font-style: normal;
-    src: url('/src/assets/fonts/Fredoka/Fredoka-Semibold.ttf');
+    src: url('./assets/fonts/Fredoka/Fredoka-SemiBold.ttf');
 }
 
 /* ----------------- LEXEND ------------------ */
 @font-face {
-    font-family: 'Lexend Regular';
-    font-weight: 400;
-    font-style: normal;
-    src: url('/src/assets/fonts/Lexend/Lexend-Regular.ttf');
+  font-family: 'Lexend';
+  src: url('./assets/fonts/Lexend/Lexend-Regular.ttf') format('truetype');
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Lexend Medium';
-    font-weight: 500;
-    font-style: normal;
-    src: url('/src/assets/fonts/Lexend/Lexend-Medium.ttf');
+  font-family: 'Lexend';
+  src: url('./assets/fonts/Lexend/Lexend-Medium.ttf') format('truetype');
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: 'Lexend Semibold';
-    font-weight: 700;
-    font-style: normal;
-    src: url('/src/assets/fonts/Lexend/Lexend-Semibold.ttf');
+  font-family: 'Lexend';
+  src: url('./assets/fonts/Lexend/Lexend-Semibold.ttf') format('truetype');
+  font-weight: 600;
 }
 
 .hero-subtitle {
   color: var(--dark2);
-  font-family: 'Lexend Semibold', sans-serif;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
   max-width: 80%;
   font-size: 18px;
   margin-bottom: 20px;
@@ -151,6 +149,20 @@ img {
 .hero-cta:hover {
   transform: translateY(-2px);
 }
+
+.title-section {
+  font-size: 40px;
+  color: var(--text-dark);
+  font-family: 'Fredoka', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.section-subtitle{
+  color: var(--matcha-subtitle);
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+}
+
 
 @layer components {
   .background-image, .bg-img  {

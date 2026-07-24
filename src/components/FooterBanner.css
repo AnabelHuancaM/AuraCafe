@@ -16,9 +16,10 @@
 }
 
 .cta-subtitle {
-  font-family: 'Lexend Medium';
+  font-family: 'Lexend', sans-serif;
   color: var(--light-active);
   margin-bottom: 1.5rem;
+  font-weight: 500;
 }
 
 .banner-link {

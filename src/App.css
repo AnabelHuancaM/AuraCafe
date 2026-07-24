@@ -44,49 +44,7 @@
   padding: 5rem 0;
 }
 
-/* ----------------- FREDOKA ------------------ */
-@font-face {
-    font-family: 'Fredoka Bold';
-    font-weight: normal;
-    font-style: normal;
-    src: url('/fonts/Fredoka/fredoka-Bold.ttf') format('ttf');
-}
 
-@font-face {
-    font-family: 'Fredoka Medium';
-    font-weight: 500;
-    font-style: normal;
-    src: url('/fonts/Fredoka/fredoka-Medium.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'Fredoka Semibold';
-    font-weight: 700;
-    font-style: normal;
-    src: url('/fonts/Fredoka/fredoka-Semibold.ttf') format('ttf');
-}
-
-/* ----------------- LEXEND ------------------ */
-@font-face {
-    font-family: 'Lexend Regular';
-    font-weight: 400;
-    font-style: normal;
-    src: url('/fonts/Lexend/Lexend-Regular.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'Lexend Medium';
-    font-weight: 500;
-    font-style: normal;
-    src: url('/fonts/Lexend/Lexend-Medium.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'Lexend Semibold';
-    font-weight: 700;
-    font-style: normal;
-    src: url('/fonts/Lexend/Lexend-Semibold.ttf') format('ttf');
-}
 
 .title-section {
   font-size: 40px;
@@ -106,10 +64,4 @@
   font-family: 'Fredoka Bold', sans-serif;
   /* font-size: 64px; */
   letter-spacing: 1.3px;
-}
-
-.section-subtitle{
-  color: var(--matcha-subtitle);
- /*  font-size: 24px; */
-  font-family: 'Lexend Semibold', sans-serif;
 }
