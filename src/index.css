@@ -82,7 +82,7 @@ img {
 }
 
 .section{
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 /* ----------------- FREDOKA ------------------ */
@@ -126,7 +126,7 @@ img {
 }
 
 .hero-subtitle {
-  color: var(--dark2);
+  color: var(--beige-light);
   font-family: 'Lexend', sans-serif;
   font-weight: 700;
   max-width: 80%;
@@ -172,7 +172,7 @@ img {
 
 @layer components {
   .title-hero  {
-    @apply text-2xl lg:text-6xl md:text-4xl sm:text-xl mb-4;
+    @apply text-2xl lg:text-5xl md:text-4xl sm:text-xl mb-4;
   }
 }
 

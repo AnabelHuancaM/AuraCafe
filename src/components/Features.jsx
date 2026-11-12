@@ -5,9 +5,9 @@ const Features = ({bgColor}) => {
   return (
     <section className="section" style={{ backgroundColor: bgColor }}>
       <div className="container mx-auto px-6">
-        <h2 className="section-title text-3xl font-semibold mb-8">¿Por qué elegir Aura Café & Bites?</h2>
-        <div className='grid lg:grid-cols-2 gap-8 items-center py-12'>
+        <div className='grid lg:grid-cols-2 gap-6 items-center py-12'>
             <div className="space-y-5">
+              <h2 className="section-title text-3xl font-semibold mb-8">¿Por qué elegir Aura Café & Bites?</h2>
               <div className="features_card">
                   <h3 className="feature-title">Ingredientes seleccionados</h3>
                   <p className="feature-subtitle">Elegimos ingredientes de calidad y origen natural para lograr sabores auténticos en cada preparación.</p>

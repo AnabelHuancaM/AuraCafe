@@ -54,9 +54,8 @@
 }
 
 .title-hero {
-  color: var(--dark-active);
+  color: var(--light);
   font-family: 'Fredoka Bold', sans-serif;
-  font-size: 50px;
   letter-spacing: 1.3px;
 }
 

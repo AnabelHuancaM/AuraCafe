@@ -9,7 +9,7 @@ const Header = () => {
         <span className="logo-text">Aura Café & Bites</span>
       </div>
       <nav className="nav">
-        <ul className="flex gap-8">
+        <ul className="flex gap-4">
           <li><a href="#menu">Menú</a></li>
           <li><a href="#locales">Locales</a></li>
           <li><a href="#contacto">Contacto</a></li>

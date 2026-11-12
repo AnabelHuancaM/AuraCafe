@@ -1,6 +1,4 @@
-import React from 'react';
 import './ProductSection.css';
-
 
 const TIPO = {
   MATCHA: {
@@ -10,12 +8,12 @@ const TIPO = {
   LATTE: {
     title: "Latte",
         class: "latte-title",
-      },
-      DESSERT: {
-        title: "Dessert",
-        class: "dessert-title",
-      }
-    };
+  },
+  DESSERT: {
+      title: "Dessert",
+      class: "dessert-title",
+    }
+  };
     
   const ProductSection = ({ products, type }) => {
     const section = TIPO[type];
